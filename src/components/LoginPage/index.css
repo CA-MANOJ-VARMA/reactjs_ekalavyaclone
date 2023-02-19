@@ -1,0 +1,63 @@
+.css-loginpage-bg-container{
+     font-family: 'Roboto';
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+.css-form-container{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    /* height: 300px; */
+    /* padding: 30px; */
+}
+
+.css-email-container{
+    display: flex; 
+    flex-direction: column; 
+    /* margin: 20px;     */
+}
+
+.css-label-itself{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.css-input-itself{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 3px;
+    font-weight: bold;
+    color: black;
+}
+
+.css-select-login-container{
+    height: 40px;
+}
+
+.css-option-itself{
+    height: 20px;
+    font-size: 18px;
+}
+
+.css-login-button-itself{
+    background-color: blueviolet;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 0;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.css-login-button-itself:hover{
+    cursor: pointer;
+}
